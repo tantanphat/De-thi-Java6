@@ -10,4 +10,9 @@ public class MainController {
     public String mainPage(){
         return "view/index";
     }
+
+    @GetMapping("/Nhan-vien")
+    public String nhanVienPage(){
+        return "view/nhan-vien";
+    }
 }
